@@ -1,0 +1,34 @@
+.header-container {
+  height: 50px;
+  background-color: rgb(226, 4, 4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 1px;
+  margin-inline: auto;
+  gap: 20px;
+}
+.container > div {
+  background-color: #fff;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.card {
+  /* box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2); */
+  transition: 0.3s;
+  border-radius: 20px;
+  border: 1px solid #e20404;
+  cursor: pointer;
+  /* width: 40%; */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 #f4aaaa;
+}
