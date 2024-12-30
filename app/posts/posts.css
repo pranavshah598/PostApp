@@ -2,7 +2,7 @@
   height: 50px;
   background-color: rgb(226, 4, 4);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }

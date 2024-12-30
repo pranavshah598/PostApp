@@ -1,0 +1,18 @@
+.labeltext {
+  flex: 2;
+}
+
+.input {
+  flex: 8 1 0%;
+  border: 1px solid #e20404;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.action-btn {
+  background-color: #e20404;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
